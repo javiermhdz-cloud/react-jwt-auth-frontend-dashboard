@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 const repoName = 'react-jwt-auth-frontend-dashboard'
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(() => {
   const isGitHubPages = process.env.GITHUB_PAGES === 'true'
 
   return {
